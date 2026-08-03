@@ -1,0 +1,36 @@
+{
+  "name": "blur-score",
+  "version": "1.0.0",
+  "description": "Detect how blurry an image is (0-1 sharpness score) using Laplacian variance",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "blur",
+    "blur-detection",
+    "image-processing",
+    "sharpness",
+    "laplacian",
+    "sharp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.35.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
