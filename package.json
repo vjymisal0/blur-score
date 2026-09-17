@@ -1,6 +1,6 @@
 {
   "name": "blur-score",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detect how blurry an image is (0-1 sharpness score) using Laplacian variance",
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
     }
   },
   "files": [
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "test": "node --test test/**/*.test.js"
@@ -33,7 +34,7 @@
     "laplacian",
     "sharp"
   ],
-  "author": "",
+  "author": "Vijay Misal <misalvijay153@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "sharp": "^0.35.3"
