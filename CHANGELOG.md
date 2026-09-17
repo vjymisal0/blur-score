@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+
+- Upgraded Sharp to include current security fixes.
+
 ## 1.0.6
 
 - Expanded API documentation and documented limitations.
