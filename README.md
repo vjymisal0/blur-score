@@ -77,3 +77,7 @@ Real Laplacian variance is much lower than you might expect: a genuinely sharp h
 ## License
 
 MIT
+
+## Limitations
+
+Sharpness scores are heuristic and can vary with image size, noise, compression, and texture. They are not a camera-focus measurement.

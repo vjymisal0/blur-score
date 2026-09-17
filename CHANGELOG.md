@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.6
+
+- Expanded API documentation and documented limitations.
+
 ## 1.0.5
 
 - Added CommonJS compatibility without changing the ESM API.
