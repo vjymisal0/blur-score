@@ -1,5 +1,10 @@
 # blur-score
 
+## Module format
+
+This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("blur-score")`.
+
+
 Detect how blurry an image is. Returns a sharpness score from `0` (very blurry) to `1` (very sharp) using the [variance of Laplacian](https://en.wikipedia.org/wiki/Discrete_Laplace_operator) method.
 
 ## Install

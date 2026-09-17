@@ -1,6 +1,6 @@
 {
   "name": "blur-score",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Detect how blurry an image is (0-1 sharpness score) using Laplacian variance",
   "repository": {
     "type": "git",
