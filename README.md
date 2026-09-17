@@ -2,7 +2,7 @@
 
 ## Module format
 
-This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("blur-score")`.
+This package supports both ESM and CommonJS. CommonJS calls return the same Promises as the ESM API.
 
 
 Detect how blurry an image is. Returns a sharpness score from `0` (very blurry) to `1` (very sharp) using the [variance of Laplacian](https://en.wikipedia.org/wiki/Discrete_Laplace_operator) method.
